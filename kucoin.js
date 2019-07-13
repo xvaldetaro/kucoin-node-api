@@ -14,6 +14,7 @@ const Kucoin = {
     this.secretKey = config.secretKey
     this.apiKey = config.apiKey
     this.passphrase = config.passphrase
+    this.l = config.logger
     const User = require('./lib/user')
     const Market = require('./lib/market')
     const Trade = require('./lib/trade')
